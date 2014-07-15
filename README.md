@@ -4,7 +4,7 @@
 シンプルなPocketクライアントです。
 Chrome Extensionとして動作します。
 
-##　インストール方法
+## インストール方法
 js/config.jsに[Pocket Developer](http://getpocket.com/developer/)から取得したコンシューマキーを入力してください。
 次に、設定→拡張機能からデベロッパーモードをオンにし、パッケージ化されていない拡張機能を読み込む　を選択から、このREADME.mdが入ってる階層を指定してください。
 
