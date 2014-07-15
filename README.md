@@ -20,12 +20,12 @@ js/config.jsに[Pocket Developer](http://getpocket.com/developer/)から取得�
 Chrome/Chromium最新版を使用してください。
 
 ## 使用ライブラリ
-[jQuery](http://jquery.com/)
+* [jQuery](http://jquery.com/)
+* [jquery_bottom](https://github.com/jimyi/jquery_bottom)
+* [Bootstrap](http://getbootstrap.com/)
 
-[jquery_bottom](https://github.com/jimyi/jquery_bottom)
+## ライセンス
+* MIT License
 
-[Bootstrap](http://getbootstrap.com/)
-
-##　ライセンス
-このChrome ExtensionはMITライセンスの元公開いたします。
+MIT ライセンスの下で公開する、オープンソース / フリーソフトウェアです。
 上記の使用しているライブラリについてはそれぞれのライブラリのライセンスを受け継ぎます。
