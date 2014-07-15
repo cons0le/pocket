@@ -21,7 +21,9 @@ Chrome/Chromium最新版を使用してください。
 
 ## 使用ライブラリ
 [jQuery](http://jquery.com/)
+
 [jquery_bottom](https://github.com/jimyi/jquery_bottom)
+
 [Bootstrap](http://getbootstrap.com/)
 
 ##　ライセンス
