@@ -1,0 +1,1 @@
+chrome.runtime.sendMessage({api: "get_token"});

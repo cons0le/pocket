@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang = "ja">
+<head>
+	<meta charset = "utf-8">
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/option.css">
+</head>
+<body>
+<div class="modal fade" id="opt_msg_box">
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> <!--&timesはHTMLの実体参照 -->
+				 <h4 class="modal-title" id="opt_msg_title"></h4>
+			</div>
+
+			<div class="modal-body">
+				<p id="opt_error_message"></p>
+			</div>
+
+			<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="option">
+	<h1>Options</h1>
+		<h4>・認証を解除</h4>
+			<p>認証を解除したい場合は下のボタンをクリックして解除してください。</p>
+			<p>※認証解除とともにgetpocket.comドメインのcookiesも削除されます。</p>
+			<button type="button" id="clear" class="btn btn-default">認証を解除する</button>
+</div>
+</body>
+<script src="../js/jquery.js"></script>
+<script src="../bootstrap/js/bootstrap_modal.js"></script>
+<script src="../js/lib/err.js"></script>
+<script src="../js/option.js"></script>
+</html>

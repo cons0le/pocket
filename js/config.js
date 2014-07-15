@@ -1,0 +1,1 @@
+var consumer_key = ""; //Pocket API Developerのコンシューマキー

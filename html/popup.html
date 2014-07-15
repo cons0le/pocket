@@ -1,0 +1,82 @@
+<DOCTYPE html>
+<html lang = "ja">
+<head>
+	<meta charset = "utf-8">
+	<link rel="stylesheet" type = "text/css" href="../bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type = "text/css" href="../css/popup.css">
+	<script src="../js/jquery.js"></script>
+	<script src= "../js/jquery-bottom.js"></script>
+	<script src= "../bootstrap/js/bootstrap_modal.js"></script>
+	</head>
+<body>
+	<div id = "auth">
+		<p>Pocket APIの認証が必要です。下のボタンから認証してください。</p>
+		<button type="button" class="btn btn-default btn-lg">
+			Authentication
+		</button>
+	</div>
+
+	<div id="main">
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="container">
+					<form class="form-inline" role="form">
+						<input type="text" class="form-control" id="search_box" placeholder="Search"></input>
+
+						<button type="button" class="btn btn-default" title="検索します。">
+							<span class="glyphicon glyphicon-search"></span>
+						</button>
+
+						<button type="button" class="btn btn-default navbar-btn" style="visibility:hidden" title="すべてのアイテム表示へ戻ります。">
+							<span class="glyphicon glyphicon-arrow-left"></span>
+						</button>
+
+						<div class ="left">
+							<button type="button" class="btn btn-default navbar-btn left" title="アイテム一覧を更新します。">
+								<span class="glyphicon glyphicon-refresh"></span>
+							</button>
+
+							<button type="button" class="btn btn-default navbar-btn" title= "現在アクティブなタブのWebページをPocketに保存します。">
+								<span class="glyphicon glyphicon-plus"></span>
+							</button>
+						</div>
+					</form>
+			</nav>
+
+
+		<div id="queries">
+
+			<div class="modal fade" id="msg_box">
+				<div class="modal-dialog">
+					<div class="modal-content">
+
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><!--&timesはHTMLの実体参照 -->
+
+							 <h4 class="modal-title" id="msg_title"></h4>
+						</div>
+
+						<div class="modal-body">
+							<p id="error_message"></p>
+						</div>
+
+						<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+	</div>
+</div>
+</body>
+<script src="../js/popup.js"></script>
+<script src="../js/lib/query.js"></script>
+<script src="../js/lib/am.js"></script>
+<script src="../js/lib/search.js"></script>
+<script src="../js/lib/rstorage.js"></script>
+<script src="../js/lib/err.js"></script>
+</html>

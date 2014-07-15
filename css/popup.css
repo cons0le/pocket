@@ -1,0 +1,106 @@
+body {
+	width: 250px;
+	height: 600px;
+}
+#main{
+	display: none;
+}
+
+#auth{
+	display: none;
+}
+
+#queries{
+	padding-top: 85px;
+	/*
+		navbarは#queriesに上からかぶさる形になるので初期位置は
+		navbar分下げる。
+
+		変更禁止のプロパティ
+		padding-top: 50px;
+
+		4/17
+		検索窓追加により下げ幅増加
+	*/
+
+
+}
+div.query {
+	margin-top: 5px;
+	border-bottom: 1px dotted;
+	min-height: 50px;
+	/*
+		変更禁止のプロパティ
+		border-bottom: 1px dotted;
+
+		他のPocketクライアントからqueryが追加されていて
+		そのクライアントの作りがクソだとタイトルが追加されていない可能性もあるので
+		最低のheightも指定する
+	*/
+}
+#queries .navbar-fixed-top{
+	margin-bottom: 50px;
+}
+
+div.tool li.glyphicon {
+	margin: 3px;
+	cursor: pointer;
+	font-size: 13px;
+	/*
+		変更禁止のプロパティ
+		font-size: 13px;
+	*/
+
+}
+
+div.tool{
+	margin-top: 5px;
+	
+}
+div.tool .url_text{
+	display: inline;
+	font-size: 13px;
+	/*
+		変更禁止のプロパティ
+		display: inline;
+	*/
+}
+div.tool .glyphicon:hover {
+	font-size: 15px;
+	/*
+		この指定はCSSリファクタリング時以外触らないこと
+	*/
+	
+}
+ul.actions{
+	display: inline;
+	float: right;
+	/*
+		変更禁止のプロパティ
+		display: inline;
+		基本的にfloat: right;も変更禁止
+	*/
+}
+.form-inline {
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+#auth {
+	margin: 10 auto;
+}
+#auth p{
+	text-align: center;
+}
+
+#auth button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.left{
+	margin-left: 22.5px;
+	display: inline-block;
+}
+.load{
+	margin: 5px 0px 0px 120px;
+}
